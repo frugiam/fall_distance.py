@@ -19,6 +19,6 @@ def fall_distance(time):
     # Calculate the distance using the formula 1/2gt^2
     distance = 1/2 * g * time * time
     # Round the distance to three decimal places
-    distance = round(distance,3)
+    distance = round(distance,7)
     # Return distance
     return distance
